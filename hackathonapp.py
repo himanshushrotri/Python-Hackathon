@@ -2,8 +2,8 @@
 # !/usr/bin/env python
 
 from flask import Flask, render_template, request, redirect, url_for
-from webapp.forms import CodeForm, ResultForm
-from webapp.stdio import stdoutIO
+from forms import CodeForm, ResultForm
+from stdio import stdoutIO
 
 app = Flask(__name__)
 app.debug = True
